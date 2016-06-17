@@ -22,9 +22,7 @@ const 	fs = require("fs"),
 // CONSTANTS
 /*******************************************************************/
 
-const BabelOptions = {
-	presets: ["es2015"]
-}
+const BabelOptions = {}
 
 //These compression options are to satisfy After Effects old javascript engine.
 const CompressionOptions = {
